@@ -49,7 +49,6 @@ challenge.
 
 ## HTML Edits
 
-```
 1. The first thing I decided to do was look at the HTML and start from the title.
 I saw that the title needed to be changed so I changed it from website to Horiseon Main page.
 
@@ -71,7 +70,6 @@ NOTE: I plan to Consult the TA to check if I followed and understood the instruc
 
 NOTE: At this point I went and finished my first wave of edits on HTML, My second wave of edits to the HTML will come after I change or edit the css and need to alter the classes somewhat to match the tags
 
-```
 
 ## CSS Edits
 ```
