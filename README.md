@@ -74,4 +74,17 @@ NOTE: At this point I went and finished my first wave of edits on HTML, My secon
 ## CSS Edits
 ```
 
+1. When looking through the css I saw that the header that I changed from a div class header tag to a header tag needed to be changed. Instead of instanciating a class it would be instanciated as a header class.
+
+I then cleaned up some of the css and started commenting it to make it more ease of access
+
+2. I then looked at the next section, which is the jumbotron section and just made sure to consolodate everything used for that class. Since I didnt change much about that class besides the type of tag it was and since on the css it was using its class definition I didnt really have to change anything here, I just made sure to section it out.
+
+3. I then moved on to what I have dubbed the content section which is now divided into a section of articles. Here is where I had to make a couple of robust changes. The content had to be grouped together first for this section so I refactored the code to move everything corresponding to the content section tag. Doing this I saw that alot of classes were just repeats of itself, seeing this I created one set of common class called contentDefn and instead of having to go with other individual classes for each article I can use css to define their style under one class value.
+
+4. The same type of situation occured with the Benefits section. I saw that there was a common class that could be shared rather than a large amount of deviating classes for each article. So I created one shared css class called benefit and used that to style all 3 article tags content.
+
+5. After that I made sure that instead of using a div with a footer class we were styling the footer tag.
+
+NOTE: This is the first runthrough of the css. now I will look for common values that could make it easier to define the css
 ```
