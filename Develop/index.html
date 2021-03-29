@@ -25,8 +25,17 @@
         </nav>
     </header>
 
+    <!--END OF HEADER-->
+
     <!--Hero/Jumbotron Section-->
     <section class="hero"></section> <!--Instead of using div it is semantically better to use section-->
+    <!--
+        This image is portrayed in the hero section of the stylesheet which is why it doesn't have an alt value 
+        if necessary it is possible to put a title value as per stackoverflow(https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute)
+        however according to some articles they say not to do that to make it more user friendly. here is the article I read that from (http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+    -->
+
+    <!--END OF HERO JUMBOTRON SECTION-->
 
     <!--content section-->
     <section class="content"> <!--Used section semantic html instead of div-->
@@ -54,6 +63,7 @@
             </p>
         </article>
     </section>
+    <!--END OF CONTENT SECTION-->
 
     <!--Benefits Section-->
     <section class="benefits"> <!--**FIXED: Changed aside to section**I read a bit about more semantic tags and decided to use a aside tag for this part, details as to why in readme.md notes section-->
@@ -65,7 +75,7 @@
             </p>
         </article>
         
-        <article class="benefit">
+        <article class="benefit"> <!--Used articles to seperate each section of the aside to follow semantic html standard-->
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="Clip art for Brand awareness; showing a lightbulb making waves"/>
             <p>
@@ -73,7 +83,7 @@
             </p>
         </article>
 
-        <article class="benefit">
+        <article class="benefit"> <!--Used articles to seperate each section of the aside to follow semantic html standard-->
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="Clip art for cost management; Showing a gear surrounded by money icons"/>
             <p>
@@ -81,6 +91,7 @@
             </p>
         </article>
     </section>
+    <!--END OF BENEFITS SECTION-->
 
     <!--Footer-->
     <footer>
@@ -89,6 +100,7 @@
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
+    <!--END OF FOOTER-->
     
 </body>
 
