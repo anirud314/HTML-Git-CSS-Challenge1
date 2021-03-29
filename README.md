@@ -1,7 +1,6 @@
 # My notes on the project (Instructions below)
 
-This is the area where I will type out detailed notes on what I did for this
-challenge.
+## Link to the final version of this project: (https://anirud314.github.io/Horiseon-mainpage/)
 
 ## Summary:
 This challenge assignment is about refactoring a codebase to make it more developer friendly and accessable for others to read and understand. In order to do that I made a couple changes that boiled down to the build still doing the same thing that it was able to do before my changes while making the codebase easier to access and understand. Throughout this readme I wrote down details on what i did based on the html edits and css edits I did.
@@ -50,6 +49,8 @@ I then cleaned up some of the css and started commenting it to make it more ease
 NOTE: This is the first runthrough of the css. now I will look for common values that could make it easier to define the css
 
 NOTE(REVISED): After going through the CSS I found that there was nothing else that I saw that I could change to make it cleaner than it is.
+
+
 
 # 01 HTML CSS Git: Code Refactor instructions
 
